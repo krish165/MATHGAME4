@@ -1,0 +1,52 @@
+<html>
+
+
+<head>
+    <title>Math Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style_S2.css">
+    
+</head>
+
+<body>
+    <h4 id="P1Number" style="font-size:20px; font-family:cursive;color: rgb(255, 255, 255);"></h4><span id="P1S" style="font-size:20px; font-family:cursive; color:rgb(255, 255, 255)"></span>
+ <br>
+
+ <h4 id="P2Number" style="font-size:20px; font-family:cursive; color:rgb(255, 255, 255)"></h4><span id="P2S" style="font-size:20px; font-family:cursive; color:rgb(255, 255, 255)"></span>
+
+
+<div class="container">
+
+   <center>
+       <h2 style="color: blue; font-size:45px; font-family:cursive;">➕➖The Math Quiz✖️➗</h2>
+       <br>
+        <h3 style="font-size: 25px; font-family: cursive; color: rgb(253, 253, 253);" id="questioner"></h3>
+        <h3 style="font-size: 25px; font-family: cursive; color: rgb(253, 253, 253);" id="answerer"></h3>
+       <br>
+
+       <div id="output" class="col-lg-6">
+         
+       </div>
+
+    <div>
+        <label style="font-size: 25px; font-family: cursive; color: rgb(253, 253, 253);">Number 1</label>
+        <input type="text" class="form-control" id="no_1"style="font-size: 25px; font-family: cursive; color: crimson;">
+
+        <label style="font-size: 25px; font-family: cursive; color: rgb(255, 255, 255);">Number 2</label>
+        <input type="text" class="form-control" id="no_2" style="font-size: 25px; font-family: cursive; color: crimson;">
+        <button style="font-size: 25px; font-family: cursive; color: rgb(255, 255, 255);" onclick="send()" class="btn btn-info">Send</button>
+    </div>
+
+
+   </center>     
+
+</div>
+
+<script src="Game_page.js"></script>
+</body>
+
+</html>

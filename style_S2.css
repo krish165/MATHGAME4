@@ -1,0 +1,15 @@
+body
+{
+ background-image:url("Bg-2.jpeg");
+ background-position: center;
+ background-size: cover;
+}
+#output
+{
+background: #fff89b;
+border-radius: 10px;
+border-top: 10px solid #9286ff;
+padding: 10px;
+float: none;
+text-align: left;
+}

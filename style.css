@@ -1,0 +1,65 @@
+body
+{
+    background-image:url("Bg-1.png");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+#heading
+{
+    font-size:55px;
+    font-family:cursive;
+    padding-bottom:50px;
+
+}
+.login_div
+	{
+		background: rgb(209, 248, 255);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+        padding-bottom:30px;
+	}
+#Login_btn
+{
+    background-color: rgb(39, 187, 187);
+    color:white;
+    font-family:cursive;
+    font-size:25px;
+}
+#player_1
+{
+    font-size:25px;
+    font-family:cursive;
+
+}
+#player_2
+{
+    font-size:25px;
+    font-family:cursive;
+
+}
+#leb-2
+{
+    font-size:20px;
+    font-family:cursive;
+
+}
+#leb-1
+{
+    font-size:20px;
+    font-family:cursive;
+
+}
+#hed-2
+{
+    font-size:25px;
+    font-family:cursive;
+
+}
+#hed-1
+{
+    font-size:25px;
+    font-family:cursive;
+
+}
